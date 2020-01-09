@@ -1,0 +1,158 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	border-bottom: 2px solid #00e9ba;
+	padding: 25px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.header__section {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.header__logo,
+.header_menu,
+.header_li {
+	float: left;
+}
+
+.header__logo {
+	margin-left: 100px;
+}
+
+.header_menu {
+	margin-left: 100px;
+}
+
+.header_li {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.header__link {
+	text-decoration: none;
+	color: black;
+	margin: 20px;
+}
+
+.header__social {
+	float: right;
+	margin-left: 100px;
+}
+
+.header__social_li {
+	float: right;
+	font-size: 25px;
+}
+
+.header__social_li a {
+	margin: 20px;
+	color: black;
+}
+
+.main__h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin: 70px;
+}
+
+.section-1,
+.section-2 {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.section-1__technology {
+	width: 33.333%;
+	float: left;
+	padding: 25px;
+	position: relative;
+}
+
+.technology__image img {
+	display: block;
+	margin: 0 auto;
+}
+
+.technology__image {
+	box-shadow:3px 5px 5px 3px #dedededc ;
+}
+
+.technology__tecnology p {
+	float: left;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.technologies__description p {
+	float: right;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #00e9ba;
+	padding: 10px;
+}
+
+.technology__tecnology,
+.technologies__description {
+	overflow: hidden;
+}
+	
+.circle__html::after {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: yellow;
+	content: 'HIT';
+	text-align: center;
+	margin: 0 auto;
+	line-height: 60px;
+	position: absolute;
+	top: -10px;
+	left: 0px;
+}
+
+.circle__js::after {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: green;
+	color: white;
+	content: 'HIT';
+	text-align: center;
+	margin: 0 auto;
+	line-height: 60px;
+	position: absolute;
+	top: -10px;
+	right: 10px;
+	
+}
+
+.section-2__block {
+	width: 33.333%;
+	float: left;
+}
+
+.section-2__h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin: 100px 0;
+}
+
+.section-2__block {
+	font-size: 20px;
+	text-indent: 50px;
+	font-variant: all-small-caps;
+}

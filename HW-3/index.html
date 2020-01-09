@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-3</title>
+    <link rel="stylesheet" href="./css/style-1.css">
+    
+	<link rel="stylesheet" href="libs/fontawesome/all.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+    <!-- Для работы со стилями создаем свой файл стилей и работаем в нем -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo-black.png" alt="">
+                </a>
+            </div>
+            <div class="social">
+                <!-- Необходимо создать список социальных иконок
+                Общие стили - размер шрифта иконок 36px
+                Что бы иконки шли в ряд, можно задать для элементов списка display: inline-block;
+			
+                1)Facebook - при наведении на которую цвет меняется на синий
+                2)Youtube - при наведении на которую цвет меняется на красный
+                3)Twitter - при наведении на которую цвет меняется на желтый -->
+	
+				<ul class="social__networks">
+					<li class="fb social__list">
+						<a href="#">
+							<i class="fab fa-facebook-square fb_social--active"></i>
+						</a>
+					</li>
+					<li class="yt social__list">
+						<a href="#">
+							<i class="fab fa-youtube-square yt_social--active"></i>
+						</a>
+					</li>
+					<li class="tw social__list">
+						<a href="#">
+							<i class="fab fa-twitter-square  tw_social--active"></i>
+						</a>
+					</li>
+				</ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+			<div class="banner_background">
+            <!--Создаем фон для данной секции:
+                - устанавливаем фоновое изображение banner.jpg
+                - устанавливаем высоту .banner 500px
+                - устанавливаем позицию изображения center
+                - устанавливаем повторение фона no-repeat
+                - устанавливаем маштабирование фона cover -->
+			</div>
+        </section>
+        <section class="text-content">
+
+            <!--Общие правила для всех .text-block
+            1) Устанавливаем внутренние отсупы padding: 20px; 
+            2) Создаем рамку вокруг блока  border: 1px solid black; 
+            3) Устанавливаем нижний наружный отступ margin-bottom: 30px; 
+            4) Заголовкам задаем:
+                - размер шрифта 30px
+                - делаем текст в верхнем регистре
+                - расстояние между буквами 6px 
+            5) Для параграфов задаем:
+                - размер шрифта 20px
+                - высота строки 32px
+                - отступ первой строки 50px
+                - установить курсивное начертание
+            6) Для ссылок:
+                - сделать в верхнем регистре
+                - убрать нижнее подчеркивание
+                - расстояние между буквами 6px
+                - установить синий цвет
+                - установить тень текста с параметрами 2px 2px 1px blue;
+                - при наведении на ссылку:
+                    - убрать тень
+                    - добавить нижнее подчеркивание
+                    - установить цвет зеленый
+                -->
+
+            <div class="text-block">
+                <h3 class="title">text title 1</h3>
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis non ea aliquam, provident qui debitis sunt delectus facere, quis eligendi architecto inventore totam laborum id praesentium nisi repellendus, possimus odio.
+                </p>
+                <a href="#" class="link">read more</a>
+            </div>
+
+
+            <!--Для данного блока установить весь текст по центру-->
+            <div class="text-block">
+                <h3 class="title">text title 2</h3>
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis non ea aliquam, provident qui debitis sunt delectus facere, quis eligendi architecto inventore totam laborum id praesentium nisi repellendus, possimus odio.
+                </p>
+                <a href="#" class="link">read more</a>
+            </div>
+
+            <!--Для данного блока установить весь текст прижатым к правому краю-->
+            <div class="text-block">
+                <h3 class="title">text title 3</h3>
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis non ea aliquam, provident qui debitis sunt delectus facere, quis eligendi architecto inventore totam laborum id praesentium nisi repellendus, possimus odio.
+                </p>
+                <a href="#" class="link">read more</a>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

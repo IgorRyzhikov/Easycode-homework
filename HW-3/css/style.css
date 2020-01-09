@@ -1,0 +1,68 @@
+.social__networks {
+	font-size: 36px;
+}
+
+.social__list {
+	display: inline-block;
+}
+
+.fb_social--active:hover{
+	color:blue;
+}
+
+.yt_social--active:hover{
+	color:red;
+}
+
+.tw_social--active:hover{
+	color:yellow;
+}
+
+.banner_background {
+	background-image: url(../images/fon.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+}
+
+.text-block {
+	padding: 20px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.title {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+.description {
+	font-size: 20px;
+	line-height: 32px;
+	text-indent: 50px;
+	font-style: italic;
+}
+
+.link {
+	text-transform: uppercase;
+	text-decoration: none;
+	initial-letter: 6px;
+	color: blue;
+	text-shadow: 2px 2px 1px blue;
+}
+
+.link:hover {
+	text-shadow: none;
+	text-transform: uppercase;
+	color:green;
+}
+
+.text-block:nth-child(2) {
+	text-align: center;
+}
+
+.text-block:nth-child(3) {
+	text-align: right;
+}

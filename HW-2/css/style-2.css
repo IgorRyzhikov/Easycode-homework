@@ -1,0 +1,49 @@
+header .logo a {
+	padding: 0;
+	background: transparent;
+}
+
+header .container {
+	width: 1000px;
+}
+
+section .container {
+	width: 33.333%;
+}
+
+.container .container {
+	height: 100%;
+	flex-direction: column;
+}
+
+.links ul li{
+	list-style: none;
+}
+
+.links ul li a {
+	text-decoration: none;
+}
+
+section:hover .hide-me {
+	display: none;
+}
+
+section:hover .show-me{
+	display: inline;
+}
+
+footer a[href="#"] {
+	text-transform: uppercase;
+}
+
+footer a.green:not([href="#"]) {
+	color: green;
+  }
+
+footer a[class ~="upper"] {
+	text-transform: uppercase;
+}
+
+footer a.red:not([class*="green"]) {
+	color:red;
+}

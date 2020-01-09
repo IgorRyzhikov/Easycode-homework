@@ -1,0 +1,29 @@
+
+
+#knpgh_a {
+	display: block;
+	width: 90%;
+	height: 30px;
+	margin-left: 8%;
+	font-size: 16px;
+	z-index: 9;
+}
+#knpgh_a2 {
+	display: none;
+	width: 86%;
+	height: 30px;
+	margin-left: 8%;
+	font-size: 16px;
+	margin-top: -30px;
+}
+.knpgh_a {
+	color: black;
+	text-decoration: none;
+}
+#knpgh_a:hover + #knpgh_a2{
+	display: block;
+	color: #415C7F;
+}
+#knpgh_a:hover {
+	color: rgba(0,0,0,0.0);
+}

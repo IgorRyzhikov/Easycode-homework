@@ -1,0 +1,316 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1024px;
+	width: 100%;
+	display: flex;
+}
+
+
+.btn {
+	border: 3px solid #ffffff;
+	border-radius: 6px;
+	color: white;
+	font-family: 'bebas-neue';
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+
+.btn-theme {
+	background: #3cc395;
+}
+
+.main__description .btn-theme {
+	background: #3cc5b2;
+}
+
+.btn-size {
+	font-size: 21px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+}
+
+.header .container {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__image img {
+	padding-right: 20px;
+}
+
+.header__basket {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header__basket p {
+	font-family: 'bebas-neue';
+	color: #a1a1a1;
+	font-size: 33px;
+	margin-left: 10px;
+} 
+
+.header__form {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	position: relative;
+}
+
+.header__form input {
+	width: 100%;
+	height: 31px;
+	max-width: 434px;
+	border: 1px solid #e1e1e1;
+} 
+
+
+
+.header__form button {
+	border: 0;
+	background: none;
+	position: absolute;
+	top: 2px;
+	right: 40px;
+}
+
+
+/*nav*/
+
+.nav {
+	background: #4ccfc1;
+	display: flex;
+	justify-content: center;
+}
+
+.nav .container {
+	justify-content: center;
+}
+
+.nav__link {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'bebas-neue';
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 35px;
+}
+
+.strip::after {
+	content: "|";
+	color: #ffffff;
+	font-size: 20px;
+	padding: 0 20px;
+}
+
+/* main */
+.main {
+	background: #3cc5b2;
+	display: flex;
+	justify-content: center;
+}
+
+.main .container {
+	justify-content: space-around;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.main__img {
+	flex-basis: 25%;
+}
+
+.main__img img {
+	width: 100%;
+}
+
+.main__description h1 {
+	max-width: 360px;
+	font-size: 61px;
+	color: #ffffff;
+	font-family: 'bebas-neue';
+	text-transform: uppercase;
+	padding-bottom: 15px;
+
+}
+
+.main__description p {
+	max-width: 402px;
+	font-size: 17px;
+	color: #ffffff;
+	line-height: 28px;
+	padding-bottom: 10px;
+}
+
+.main__description button {
+	margin-bottom: 50px;
+}
+
+.main__circle {
+	display: flex;
+	transform: translateX(-70px);
+}
+
+.circle {
+	width: 9px;
+	height: 9px;
+	background: #ffffff;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.opacity {
+	opacity: 0.51;
+}
+
+/* section-1 */
+.section-1 {
+	display: flex;
+	justify-content: center;
+}
+
+.section-1 .container {
+	justify-content: center;
+}
+
+.section-1__branded {
+	width: 33.333%;
+	padding: 20px;
+}
+
+.section-1__branded:nth-child(2) {
+	border-left: 1px solid #ecdede;
+	border-right: 1px solid #ecdede;
+}
+
+.section-1__wrap {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.shoes {
+	padding: 20px;
+}
+
+.shoes p{
+	max-width: 75px;
+	font-size: 27px;
+	color: #afafaf;
+	font-family: 'bebas-neue';
+	padding-bottom: 10px;
+}
+
+/* section-2 */ 
+.section-2 {
+	background: #3cc5b2;
+	display: flex;
+	justify-content: center;	
+}
+
+.section-2 .container {
+	justify-content: flex-start;
+}
+
+.section-2 h1 {
+	font-size: 31px;
+	color: #ffffff;
+	font-family: 'bebas-neue';
+	margin-left: 60px;
+	padding: 25px 0;
+}
+
+/* section-3 */ 
+.section-3 {
+	display: flex;
+	justify-content: center;
+}
+
+.section-3 .container {
+	flex-wrap: wrap;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.col {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-3 {
+	padding-top: 80px;
+}
+
+.section-3__branded {
+	width: 33.333%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+.section-3__wrap {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.16);
+	border-bottom: 5px solid #3cc395;
+}
+
+
+.section-3__branded p {
+	font-size: 27px;
+	color: #afafaf;
+	font-family: 'bebas-neue';
+}
+
+.section-3__price {
+	display: flex;
+	align-items: center;
+}
+
+/* foother */
+.footer {
+	background: #3cc5b2;
+	display: flex;
+	justify-content: center;
+}
+
+.footer .container {
+	justify-content: center;
+	padding: 40px 0;
+}
+
+.footer_shops {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+}
+
+.shops_wrap h1 {
+	font-size: 27px;
+	font-family: 'bebas-neue';
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+
+
+.shops_wrap ul a{
+	font-size: 15px;
+	color: #ffffff;
+	line-height: 28px;
+	text-decoration: none;
+}

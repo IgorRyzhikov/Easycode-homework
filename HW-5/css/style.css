@@ -1,0 +1,89 @@
+.header {
+	width: 100%;
+	max-width: 1920px;
+	min-width: 850px;
+	height: 160px;
+	background-color: #001122;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.header__menu {
+	display: flex;
+	align-items: center;
+}
+
+
+.header__nav ul {
+	display: flex;
+	margin-left: 70px;
+}
+
+.nav__li a{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'mullerregular';
+	padding: 30px;
+}
+
+
+.header__social {
+	display: flex;
+}
+
+.social__list a{
+	color: white;
+	font-size: 24px;
+	padding: 15px;
+}
+
+/* .main {
+	width: 100%;
+	
+} */
+
+.main {
+	height: 100vh;
+	background: url(../images/cooking-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container__heading {
+	color: #ffffff;
+	font-size: 120px;
+	font-family: 'debbyscript';
+}
+
+.container__p {
+	font-size: 72px;
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+.container__btn {
+	width: 400px;
+	height: 85px;
+	background-color: #771111;
+	border: none;
+	color: white;
+	font-size: 28px;
+	font-family: 'mullerregular';
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+}
