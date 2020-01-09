@@ -1,8 +1,5 @@
 #instructions:
 
-Clone the project:
-git clone https://github.com/IgorRyzhikov/landing.git
-
 Upload opm packages
 npm install
 
